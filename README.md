@@ -1,66 +1,20 @@
-## Foundry
+# ERC20 Token
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+## About
 
-Foundry consists of:
-
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
+This Project is to create a ERC20 Token. Where people can send or receive Token. Tokens can be transferred between Ethereum addresses.
 
 ## Usage
 
-### Build
+Users can interact with the ERC20 token contract through various functions, including:
 
-```shell
-$ forge build
-```
+- `totalSupply()`: Get the total supply of tokens.
+- `balanceOf(address account)`: Get the token balance of a specific address.
+- `transfer(address receiver, uint256 amount)`: Transfer tokens from the sender's address to the specified receiver.
+- `transferFrom(address sender, address receiver, uint256 amount)`: Transfer tokens from one address to another if approved by the sender.
+- `approve(address spender, uint256 amount)`: Allow another address to spend tokens on behalf of the sender.
 
-### Test
+## Tests!
 
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+1. Write some deploy scripts
+2. Write some tests
