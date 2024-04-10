@@ -21,5 +21,5 @@ Users can interact with the ERC20 token contract through various functions, incl
 
 ## Notes
 - I deploy This contract on sepolia testnet and it is also verified.
-- You can interact with my Raffle Contract on **[https://sepolia.etherscan.io]**
+- You can interact with my Contract on **[https://sepolia.etherscan.io]**
 - Contract Address on sepolia : **0x53823713d3684f9299A81A409cFa6dc4c37F1300**
